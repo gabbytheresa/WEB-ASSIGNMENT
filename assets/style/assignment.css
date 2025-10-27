@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightpink;
+  color: grey;
+}
+
+header, footer {
+  background-color: mediumpurple;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  background-color: rebeccapurple;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  }
+
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 100%;
+  }
+
+img {
+  width: 700px;
+  height: 440px;
+}
+
+ul, ol {
+  margin-left: 10px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border: bold;
+}
+
+button:hover {
+  background-color: lightskyblue;
+}
+
