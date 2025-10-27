@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: lightpink;
   color: grey;
+  text-align: center;
 }
 
 header, footer {
@@ -84,6 +85,7 @@ ul, ol {
     font-size: 14px;
   }
 }
+
 
 
 
