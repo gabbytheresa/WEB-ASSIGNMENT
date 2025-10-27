@@ -69,13 +69,14 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-    img {
-      width: 120px;
-      max-width: 70%;
-      height: auto;
-    }
+   body {
+    font-size: 14px;
+   }
+   img {
+    width: 120px;
+    max-width: 70%;
+    height: auto;
+   }
+
 
 
