@@ -68,15 +68,7 @@ button:hover {
   background-color: lightskyblue;
 }
 
-@media (max-width: 600px) {
-   body {
-    font-size: 14px;
-   }
-   img {
-    width: 220px;
-    max-width: 70%;
-    height: auto;
-   }
+
 
 
 
