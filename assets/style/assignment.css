@@ -36,8 +36,8 @@ nav a:hover {
   }
 
 .card {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 8px;
   padding: 25px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -46,27 +46,45 @@ nav a:hover {
   }
 
 img {
-  width: 450px;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-  margin: 10px auto;
-  object-fit: cover;
+  width: 700px;
+  height: 440px;
 }
 
 ul, ol {
   margin-left: 10px;
 }
 
-button {
-  background-color: blue;
-  color: white;
-  border: bold;
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header, footer {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 20px 10px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 14px;
+  }
 }
 
-button:hover {
-  background-color: lightskyblue;
-}
 
 
 
