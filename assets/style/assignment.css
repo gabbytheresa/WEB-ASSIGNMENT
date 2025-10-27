@@ -46,8 +46,12 @@ nav a:hover {
   }
 
 img {
-  width: 700px;
-  height: 440px;
+  width: 150px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
 }
 
 ul, ol {
@@ -63,4 +67,5 @@ button {
 button:hover {
   background-color: lightskyblue;
 }
+
 
