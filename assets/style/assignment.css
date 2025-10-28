@@ -46,11 +46,14 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   text-align: center;
   width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
   }
 
 img {
   width: 700px;
   height: 440px;
+  height: auto; 
 }
 
 ul, ol {
@@ -87,6 +90,7 @@ ul, ol {
     font-size: 14px;
   }
 }
+
 
 
 
