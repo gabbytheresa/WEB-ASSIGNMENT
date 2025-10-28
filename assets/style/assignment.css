@@ -51,12 +51,8 @@ nav a:hover {
   }
 
 img {
-  width: 100%;
-  max-width: 700px;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
+  width: 700px;
+  height: 440px;
 }
 
 ul, ol {
@@ -93,6 +89,7 @@ ul, ol {
     font-size: 14px;
   }
 }
+
 
 
 
